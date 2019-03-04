@@ -8,8 +8,8 @@
 * Service/Job: Java springboot - For heavy task, run as microservice
 * DB: couchbase - NoSQL, replication, N1QL language. 
 
-## Context
+## Context Diagram
 ![](landber-context.png)
 
-## Deployment
+## Deployment Diagram
 ![](landber-deployment.png)
