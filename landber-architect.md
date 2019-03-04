@@ -1,7 +1,7 @@
 ## Software stack
 ![](landber-software-stack.png)
 
-* Lighweight frameworks have been choosen for fast development, most of them are base on JS language
+* Lighweight frameworks have been choosen for fast development, most of them are based on JS language
 * Web client: AngularJS - Rich client, huge community
 * Mobile App: React Native - Emerge mobile cross-platform to build native UI of IOS and Android app. 
 * Backend: NodeJS - HAPI
