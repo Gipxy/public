@@ -1,1 +1,139 @@
-hello
+/Users/a/Library/Java/JavaVirtualMachines/openjdk-16/Contents/Home/bin/java -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=49738:/Applications/IntelliJ IDEA.app/Contents/bin -Dfile.encoding=UTF-8 -classpath /u01/code/tmp/amazon-kinesis-learning/target/classes:/Users/a/.m2/repository/software/amazon/kinesis/amazon-kinesis-client/2.2.9/amazon-kinesis-client-2.2.9.jar:/Users/a/.m2/repository/software/amazon/awssdk/kinesis/2.10.66/kinesis-2.10.66.jar:/Users/a/.m2/repository/software/amazon/awssdk/aws-cbor-protocol/2.10.66/aws-cbor-protocol-2.10.66.jar:/Users/a/.m2/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.10.0/jackson-dataformat-cbor-2.10.0.jar:/Users/a/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.0/jackson-core-2.10.0.jar:/Users/a/.m2/repository/software/amazon/awssdk/aws-json-protocol/2.10.66/aws-json-protocol-2.10.66.jar:/Users/a/.m2/repository/software/amazon/awssdk/protocol-core/2.10.66/protocol-core-2.10.66.jar:/Users/a/.m2/repository/software/amazon/awssdk/sdk-core/2.10.66/sdk-core-2.10.66.jar:/Users/a/.m2/repository/software/amazon/awssdk/profiles/2.10.66/profiles-2.10.66.jar:/Users/a/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.0/jackson-databind-2.10.0.jar:/Users/a/.m2/repository/software/amazon/awssdk/auth/2.10.66/auth-2.10.66.jar:/Users/a/.m2/repository/software/amazon/eventstream/eventstream/1.0.1/eventstream-1.0.1.jar:/Users/a/.m2/repository/software/amazon/awssdk/http-client-spi/2.10.66/http-client-spi-2.10.66.jar:/Users/a/.m2/repository/software/amazon/awssdk/regions/2.10.66/regions-2.10.66.jar:/Users/a/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar:/Users/a/.m2/repository/software/amazon/awssdk/annotations/2.10.66/annotations-2.10.66.jar:/Users/a/.m2/repository/software/amazon/awssdk/utils/2.10.66/utils-2.10.66.jar:/Users/a/.m2/repository/software/amazon/awssdk/aws-core/2.10.66/aws-core-2.10.66.jar:/Users/a/.m2/repository/software/amazon/awssdk/apache-client/2.10.66/apache-client-2.10.66.jar:/Users/a/.m2/repository/org/apache/httpcomponents/httpclient/4.5.9/httpclient-4.5.9.jar:/Users/a/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/a/.m2/repository/org/apache/httpcomponents/httpcore/4.4.11/httpcore-4.4.11.jar:/Users/a/.m2/repository/software/amazon/awssdk/dynamodb/2.10.66/dynamodb-2.10.66.jar:/Users/a/.m2/repository/software/amazon/awssdk/cloudwatch/2.10.66/cloudwatch-2.10.66.jar:/Users/a/.m2/repository/software/amazon/awssdk/aws-query-protocol/2.10.66/aws-query-protocol-2.10.66.jar:/Users/a/.m2/repository/software/amazon/awssdk/netty-nio-client/2.10.66/netty-nio-client-2.10.66.jar:/Users/a/.m2/repository/io/netty/netty-codec-http/4.1.42.Final/netty-codec-http-4.1.42.Final.jar:/Users/a/.m2/repository/io/netty/netty-codec-http2/4.1.42.Final/netty-codec-http2-4.1.42.Final.jar:/Users/a/.m2/repository/io/netty/netty-codec/4.1.42.Final/netty-codec-4.1.42.Final.jar:/Users/a/.m2/repository/io/netty/netty-transport/4.1.42.Final/netty-transport-4.1.42.Final.jar:/Users/a/.m2/repository/io/netty/netty-resolver/4.1.42.Final/netty-resolver-4.1.42.Final.jar:/Users/a/.m2/repository/io/netty/netty-common/4.1.42.Final/netty-common-4.1.42.Final.jar:/Users/a/.m2/repository/io/netty/netty-buffer/4.1.42.Final/netty-buffer-4.1.42.Final.jar:/Users/a/.m2/repository/io/netty/netty-handler/4.1.42.Final/netty-handler-4.1.42.Final.jar:/Users/a/.m2/repository/io/netty/netty-transport-native-epoll/4.1.42.Final/netty-transport-native-epoll-4.1.42.Final-linux-x86_64.jar:/Users/a/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.42.Final/netty-transport-native-unix-common-4.1.42.Final.jar:/Users/a/.m2/repository/com/typesafe/netty/netty-reactive-streams-http/2.0.4/netty-reactive-streams-http-2.0.4.jar:/Users/a/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/a/.m2/repository/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2.jar:/Users/a/.m2/repository/com/google/guava/guava/26.0-jre/guava-26.0-jre.jar:/Users/a/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/a/.m2/repository/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2.jar:/Users/a/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/a/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/a/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/a/.m2/repository/com/google/protobuf/protobuf-java/2.6.1/protobuf-java-2.6.1.jar:/Users/a/.m2/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar:/Users/a/.m2/repository/io/reactivex/rxjava2/rxjava/2.1.14/rxjava-2.1.14.jar:/Users/a/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/a/.m2/repository/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar:/Users/a/.m2/repository/org/slf4j/slf4j-simple/1.6.4/slf4j-simple-1.6.4.jar com.amazonaws.services.kinesis.samples.stocktrades.processor.StockTradesProcessor StockTradesProcessor StockTradeStream ap-southeast-1
+711 [main] INFO software.amazon.kinesis.leases.dynamodb.DynamoDBLeaseCoordinator - With failover time 10000 ms and epsilon 25 ms, LeaseCoordinator will renew leases every 3308 ms, takeleases every 20050 ms, process maximum of 2147483647 leases and steal 1 lease(s) at a time.
+719 [main] INFO software.amazon.kinesis.coordinator.Scheduler - Initialization attempt 1
+719 [main] INFO software.amazon.kinesis.coordinator.Scheduler - Initializing LeaseCoordinator
+2800 [main] INFO software.amazon.kinesis.leases.dynamodb.DynamoDBLeaseCoordinator - Created new lease table for coordinator with initial read capacity of 10 and write capacity of 10.
+12858 [main] INFO software.amazon.kinesis.coordinator.Scheduler - Syncing Kinesis shard info
+13249 [main] INFO software.amazon.kinesis.coordinator.Scheduler - Starting LeaseCoordinator
+13271 [main] INFO software.amazon.kinesis.coordinator.Scheduler - Initialization complete. Starting worker loop.
+13284 [LeaseCoordinator-0000] INFO software.amazon.kinesis.leases.dynamodb.DynamoDBLeaseTaker - Worker de53759c-7f46-4e18-9c79-c8b194831d20 saw 1 total leases, 1 available leases, 1 workers. Target is 1 leases, I have 0 leases, I will take 1 leases
+13318 [LeaseCoordinator-0000] INFO software.amazon.kinesis.leases.dynamodb.DynamoDBLeaseTaker - Worker de53759c-7f46-4e18-9c79-c8b194831d20 successfully took 1 leases: shardId-000000000000
+14363 [main] INFO software.amazon.kinesis.retrieval.fanout.FanOutConsumerRegistration - StreamConsumer not found, need to create it.
+14445 [main] INFO software.amazon.kinesis.retrieval.fanout.FanOutConsumerRegistration - Waiting for StreamConsumer StockTradesProcessor to have ACTIVE status...
+15483 [main] INFO software.amazon.kinesis.retrieval.fanout.FanOutConsumerRegistration - Waiting for StreamConsumer StockTradesProcessor to have ACTIVE status...
+16507 [main] INFO software.amazon.kinesis.retrieval.fanout.FanOutConsumerRegistration - Waiting for StreamConsumer StockTradesProcessor to have ACTIVE status...
+17531 [main] INFO software.amazon.kinesis.retrieval.fanout.FanOutConsumerRegistration - Waiting for StreamConsumer StockTradesProcessor to have ACTIVE status...
+18567 [main] INFO software.amazon.kinesis.retrieval.fanout.FanOutConsumerRegistration - Waiting for StreamConsumer StockTradesProcessor to have ACTIVE status...
+19596 [main] INFO software.amazon.kinesis.retrieval.fanout.FanOutConsumerRegistration - Waiting for StreamConsumer StockTradesProcessor to have ACTIVE status...
+20631 [main] INFO software.amazon.kinesis.coordinator.Scheduler - Created new shardConsumer for : ShardInfo(shardId=shardId-000000000000, concurrencyToken=4b01e81d-0214-4c54-8cae-df867cb088ed, parentShardIds=[], checkpoint={SequenceNumber: LATEST,SubsequenceNumber: 0})
+20634 [ShardRecordProcessor-0000] INFO software.amazon.kinesis.lifecycle.BlockOnParentShardTask - No need to block on parents [] of shard shardId-000000000000
+30729 [main] INFO software.amazon.kinesis.coordinator.DiagnosticEventLogger - Current thread pool executor state: ExecutorStateEvent(executorName=SchedulerThreadPoolExecutor, currentQueueSize=0, activeThreads=0, coreThreads=0, leasesOwned=1, largestPoolSize=2, maximumPoolSize=2147483647)
+60822 [main] INFO software.amazon.kinesis.coordinator.Scheduler - Current stream shard assignments: shardId-000000000000
+60823 [main] INFO software.amazon.kinesis.coordinator.DiagnosticEventLogger - Current thread pool executor state: ExecutorStateEvent(executorName=SchedulerThreadPoolExecutor, currentQueueSize=0, activeThreads=0, coreThreads=0, leasesOwned=1, largestPoolSize=2, maximumPoolSize=2147483647)
+60823 [main] INFO software.amazon.kinesis.coordinator.Scheduler - Sleeping ...
+****** Shard shardId-000000000000 stats for last 1 minute ******
+Most popular stock being bought: GOOG, 16 buys.
+Most popular stock being sold: ORCL, 11 sells.
+****************************************************************
+
+90911 [main] INFO software.amazon.kinesis.coordinator.DiagnosticEventLogger - Current thread pool executor state: ExecutorStateEvent(executorName=SchedulerThreadPoolExecutor, currentQueueSize=0, activeThreads=0, coreThreads=0, leasesOwned=1, largestPoolSize=2, maximumPoolSize=2147483647)
+121012 [main] INFO software.amazon.kinesis.coordinator.DiagnosticEventLogger - Current thread pool executor state: ExecutorStateEvent(executorName=SchedulerThreadPoolExecutor, currentQueueSize=0, activeThreads=0, coreThreads=0, leasesOwned=1, largestPoolSize=2, maximumPoolSize=2147483647)
+122017 [main] INFO software.amazon.kinesis.coordinator.Scheduler - Current stream shard assignments: shardId-000000000000
+122018 [main] INFO software.amazon.kinesis.coordinator.Scheduler - Sleeping ...
+****** Shard shardId-000000000000 stats for last 1 minute ******
+Most popular stock being bought: BRK.A, 22 buys.
+Most popular stock being sold: MSFT, 15 sells.
+****************************************************************
+
+151109 [main] INFO software.amazon.kinesis.coordinator.DiagnosticEventLogger - Current thread pool executor state: ExecutorStateEvent(executorName=SchedulerThreadPoolExecutor, currentQueueSize=0, activeThreads=0, coreThreads=0, leasesOwned=1, largestPoolSize=2, maximumPoolSize=2147483647)
+181200 [main] INFO software.amazon.kinesis.coordinator.DiagnosticEventLogger - Current thread pool executor state: ExecutorStateEvent(executorName=SchedulerThreadPoolExecutor, currentQueueSize=0, activeThreads=0, coreThreads=0, leasesOwned=1, largestPoolSize=2, maximumPoolSize=2147483647)
+183208 [main] INFO software.amazon.kinesis.coordinator.Scheduler - Current stream shard assignments: shardId-000000000000
+183208 [main] INFO software.amazon.kinesis.coordinator.Scheduler - Sleeping ...
+****** Shard shardId-000000000000 stats for last 1 minute ******
+Most popular stock being bought: ORCL, 17 buys.
+Most popular stock being sold: DIS, 15 sells.
+****************************************************************
+
+211294 [main] INFO software.amazon.kinesis.coordinator.DiagnosticEventLogger - Current thread pool executor state: ExecutorStateEvent(executorName=SchedulerThreadPoolExecutor, currentQueueSize=0, activeThreads=0, coreThreads=0, leasesOwned=1, largestPoolSize=2, maximumPoolSize=2147483647)
+241372 [main] INFO software.amazon.kinesis.coordinator.DiagnosticEventLogger - Current thread pool executor state: ExecutorStateEvent(executorName=SchedulerThreadPoolExecutor, currentQueueSize=0, activeThreads=0, coreThreads=0, leasesOwned=1, largestPoolSize=2, maximumPoolSize=2147483647)
+244380 [main] INFO software.amazon.kinesis.coordinator.Scheduler - Current stream shard assignments: shardId-000000000000
+244380 [main] INFO software.amazon.kinesis.coordinator.Scheduler - Sleeping ...
+****** Shard shardId-000000000000 stats for last 1 minute ******
+Most popular stock being bought: PFE, 21 buys.
+Most popular stock being sold: JNJ, 11 sells.
+****************************************************************
+
+271452 [main] INFO software.amazon.kinesis.coordinator.DiagnosticEventLogger - Current thread pool executor state: ExecutorStateEvent(executorName=SchedulerThreadPoolExecutor, currentQueueSize=0, activeThreads=0, coreThreads=0, leasesOwned=1, largestPoolSize=2, maximumPoolSize=2147483647)
+301550 [main] INFO software.amazon.kinesis.coordinator.DiagnosticEventLogger - Current thread pool executor state: ExecutorStateEvent(executorName=SchedulerThreadPoolExecutor, currentQueueSize=0, activeThreads=0, coreThreads=0, leasesOwned=1, largestPoolSize=2, maximumPoolSize=2147483647)
+305557 [main] INFO software.amazon.kinesis.coordinator.Scheduler - Current stream shard assignments: shardId-000000000000
+305558 [main] INFO software.amazon.kinesis.coordinator.Scheduler - Sleeping ...
+****** Shard shardId-000000000000 stats for last 1 minute ******
+Most popular stock being bought: FB, 18 buys.
+Most popular stock being sold: JNJ, 13 sells.
+****************************************************************
+
+331625 [main] INFO software.amazon.kinesis.coordinator.DiagnosticEventLogger - Current thread pool executor state: ExecutorStateEvent(executorName=SchedulerThreadPoolExecutor, currentQueueSize=0, activeThreads=0, coreThreads=0, leasesOwned=1, largestPoolSize=2, maximumPoolSize=2147483647)
+361721 [main] INFO software.amazon.kinesis.coordinator.DiagnosticEventLogger - Current thread pool executor state: ExecutorStateEvent(executorName=SchedulerThreadPoolExecutor, currentQueueSize=0, activeThreads=0, coreThreads=0, leasesOwned=1, largestPoolSize=2, maximumPoolSize=2147483647)
+366740 [main] INFO software.amazon.kinesis.coordinator.Scheduler - Current stream shard assignments: shardId-000000000000
+366740 [main] INFO software.amazon.kinesis.coordinator.Scheduler - Sleeping ...
+****** Shard shardId-000000000000 stats for last 1 minute ******
+Most popular stock being bought: GE, 19 buys.
+Most popular stock being sold: WFC, 14 sells.
+****************************************************************
+
+391829 [main] INFO software.amazon.kinesis.coordinator.DiagnosticEventLogger - Current thread pool executor state: ExecutorStateEvent(executorName=SchedulerThreadPoolExecutor, currentQueueSize=0, activeThreads=0, coreThreads=0, leasesOwned=1, largestPoolSize=2, maximumPoolSize=2147483647)
+421920 [main] INFO software.amazon.kinesis.coordinator.DiagnosticEventLogger - Current thread pool executor state: ExecutorStateEvent(executorName=SchedulerThreadPoolExecutor, currentQueueSize=0, activeThreads=0, coreThreads=0, leasesOwned=1, largestPoolSize=2, maximumPoolSize=2147483647)
+427937 [main] INFO software.amazon.kinesis.coordinator.Scheduler - Current stream shard assignments: shardId-000000000000
+427937 [main] INFO software.amazon.kinesis.coordinator.Scheduler - Sleeping ...
+****** Shard shardId-000000000000 stats for last 1 minute ******
+Most popular stock being bought: T, 18 buys.
+Most popular stock being sold: CVX, 14 sells.
+****************************************************************
+
+452005 [main] INFO software.amazon.kinesis.coordinator.DiagnosticEventLogger - Current thread pool executor state: ExecutorStateEvent(executorName=SchedulerThreadPoolExecutor, currentQueueSize=0, activeThreads=0, coreThreads=0, leasesOwned=1, largestPoolSize=2, maximumPoolSize=2147483647)
+482093 [main] INFO software.amazon.kinesis.coordinator.DiagnosticEventLogger - Current thread pool executor state: ExecutorStateEvent(executorName=SchedulerThreadPoolExecutor, currentQueueSize=0, activeThreads=0, coreThreads=0, leasesOwned=1, largestPoolSize=2, maximumPoolSize=2147483647)
+489116 [main] INFO software.amazon.kinesis.coordinator.Scheduler - Current stream shard assignments: shardId-000000000000
+489116 [main] INFO software.amazon.kinesis.coordinator.Scheduler - Sleeping ...
+****** Shard shardId-000000000000 stats for last 1 minute ******
+Most popular stock being bought: AAPL, 20 buys.
+Most popular stock being sold: WFC, 15 sells.
+****************************************************************
+
+512197 [main] INFO software.amazon.kinesis.coordinator.DiagnosticEventLogger - Current thread pool executor state: ExecutorStateEvent(executorName=SchedulerThreadPoolExecutor, currentQueueSize=0, activeThreads=0, coreThreads=0, leasesOwned=1, largestPoolSize=2, maximumPoolSize=2147483647)
+542291 [main] INFO software.amazon.kinesis.coordinator.DiagnosticEventLogger - Current thread pool executor state: ExecutorStateEvent(executorName=SchedulerThreadPoolExecutor, currentQueueSize=0, activeThreads=0, coreThreads=0, leasesOwned=1, largestPoolSize=2, maximumPoolSize=2147483647)
+550318 [main] INFO software.amazon.kinesis.coordinator.Scheduler - Current stream shard assignments: shardId-000000000000
+550319 [main] INFO software.amazon.kinesis.coordinator.Scheduler - Sleeping ...
+****** Shard shardId-000000000000 stats for last 1 minute ******
+Most popular stock being bought: ORCL, 23 buys.
+Most popular stock being sold: DIS, 14 sells.
+****************************************************************
+
+572396 [main] INFO software.amazon.kinesis.coordinator.DiagnosticEventLogger - Current thread pool executor state: ExecutorStateEvent(executorName=SchedulerThreadPoolExecutor, currentQueueSize=0, activeThreads=0, coreThreads=0, leasesOwned=1, largestPoolSize=2, maximumPoolSize=2147483647)
+602502 [main] INFO software.amazon.kinesis.coordinator.DiagnosticEventLogger - Current thread pool executor state: ExecutorStateEvent(executorName=SchedulerThreadPoolExecutor, currentQueueSize=0, activeThreads=0, coreThreads=0, leasesOwned=1, largestPoolSize=2, maximumPoolSize=2147483647)
+611530 [main] INFO software.amazon.kinesis.coordinator.Scheduler - Current stream shard assignments: shardId-000000000000
+611530 [main] INFO software.amazon.kinesis.coordinator.Scheduler - Sleeping ...
+****** Shard shardId-000000000000 stats for last 1 minute ******
+Most popular stock being bought: KO, 18 buys.
+Most popular stock being sold: BUD, 14 sells.
+****************************************************************
+
+632592 [main] INFO software.amazon.kinesis.coordinator.DiagnosticEventLogger - Current thread pool executor state: ExecutorStateEvent(executorName=SchedulerThreadPoolExecutor, currentQueueSize=0, activeThreads=0, coreThreads=0, leasesOwned=1, largestPoolSize=2, maximumPoolSize=2147483647)
+662673 [main] INFO software.amazon.kinesis.coordinator.DiagnosticEventLogger - Current thread pool executor state: ExecutorStateEvent(executorName=SchedulerThreadPoolExecutor, currentQueueSize=0, activeThreads=0, coreThreads=0, leasesOwned=1, largestPoolSize=2, maximumPoolSize=2147483647)
+672711 [main] INFO software.amazon.kinesis.coordinator.Scheduler - Current stream shard assignments: shardId-000000000000
+672711 [main] INFO software.amazon.kinesis.coordinator.Scheduler - Sleeping ...
+****** Shard shardId-000000000000 stats for last 1 minute ******
+Most popular stock being bought: AMZN, 17 buys.
+Most popular stock being sold: AAPL, 13 sells.
+****************************************************************
+
+692775 [main] INFO software.amazon.kinesis.coordinator.DiagnosticEventLogger - Current thread pool executor state: ExecutorStateEvent(executorName=SchedulerThreadPoolExecutor, currentQueueSize=0, activeThreads=0, coreThreads=0, leasesOwned=1, largestPoolSize=2, maximumPoolSize=2147483647)
+722856 [main] INFO software.amazon.kinesis.coordinator.DiagnosticEventLogger - Current thread pool executor state: ExecutorStateEvent(executorName=SchedulerThreadPoolExecutor, currentQueueSize=0, activeThreads=0, coreThreads=0, leasesOwned=1, largestPoolSize=2, maximumPoolSize=2147483647)
+733886 [main] INFO software.amazon.kinesis.coordinator.Scheduler - Current stream shard assignments: shardId-000000000000
+733886 [main] INFO software.amazon.kinesis.coordinator.Scheduler - Sleeping ...
+****** Shard shardId-000000000000 stats for last 1 minute ******
+Most popular stock being bought: ORCL, 20 buys.
+Most popular stock being sold: FB, 15 sells.
+****************************************************************
+
+752939 [main] INFO software.amazon.kinesis.coordinator.DiagnosticEventLogger - Current thread pool executor state: ExecutorStateEvent(executorName=SchedulerThreadPoolExecutor, currentQueueSize=0, activeThreads=0, coreThreads=0, leasesOwned=1, largestPoolSize=2, maximumPoolSize=2147483647)
+783030 [main] INFO software.amazon.kinesis.coordinator.DiagnosticEventLogger - Current thread pool executor state: ExecutorStateEvent(executorName=SchedulerThreadPoolExecutor, currentQueueSize=0, activeThreads=0, coreThreads=0, leasesOwned=1, largestPoolSize=2, maximumPoolSize=2147483647)
+795060 [main] INFO software.amazon.kinesis.coordinator.Scheduler - Current stream shard assignments: shardId-000000000000
+795061 [main] INFO software.amazon.kinesis.coordinator.Scheduler - Sleeping ...
+****** Shard shardId-000000000000 stats for last 1 minute ******
+Most popular stock being bought: AMZN, 24 buys.
+Most popular stock being sold: PFE, 12 sells.
+****************************************************************
+
+813109 [main] INFO software.amazon.kinesis.coordinator.DiagnosticEventLogger - Current thread pool executor state: ExecutorStateEvent(executorName=SchedulerThreadPoolExecutor, currentQueueSize=0, activeThreads=0, coreThreads=0, leasesOwned=1, largestPoolSize=2, maximumPoolSize=2147483647)
+
+Process finished with exit code 130 (interrupted by signal 2: SIGINT)
